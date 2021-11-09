@@ -1,0 +1,6 @@
+{
+  "sub" : "bob",
+  "action" : "read",
+  "project" : "SockShop",
+  "stage" : "dev"
+}

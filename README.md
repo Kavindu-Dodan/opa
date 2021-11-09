@@ -1,2 +1,1 @@
-# opa
-Open Policy Agent trial
+Open Policy Agent evaluation

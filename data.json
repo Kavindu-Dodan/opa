@@ -1,0 +1,47 @@
+{
+  "users": {
+    "alice": [
+      "admin"
+    ],
+    "bob": [
+      "viewer",
+      "SockShopAdmin"
+    ],
+    "eve": [
+      "viewer"
+    ],
+    "884408e1-2918-4cz0-b12d-3aa027d7563b": [
+      "DevToken"
+    ]
+  },
+  "roles": {
+    "admin": [
+      {
+        "action": "*",
+        "project": "*",
+        "stage": "*"
+      }
+    ],
+    "viewer": [
+      {
+        "project": "*",
+        "action": "read",
+        "stage": "*"
+      }
+    ],
+    "SockShopAdmin": [
+      {
+        "project": "SockShop",
+        "action": "*",
+        "stage": "*"
+      }
+    ],
+    "DevToken": [
+      {
+        "action": "*",
+        "project": "*",
+        "stage": "dev"
+      }
+    ]
+  }
+}
